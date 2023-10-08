@@ -28,14 +28,14 @@ nav {
     // min-height: 128px;
     background-color: #fff;
     align-items: center;
-    // padding: 28px 4%;
+    padding: 0px 0%;
     display: flex;
     position: relative;
 
     .navigation-container {
         width: 100%;
         max-width: 1060px;
-        padding: 28px 0%;
+        padding: 28px 4%;
         justify-content: space-between;
         align-items: stretch;
         margin-left: auto;
@@ -84,12 +84,17 @@ nav {
         position: absolute;
         z-index: 1;
         top: -176px;
+        left: 0;
         overflow: hidden;
         a{
-            padding-top: 32px;
-            padding-bottom: 32px;
-            padding-left: 45px;
+            padding: 32px 0px 32px 45px;
+            color: #0d0e10;
             display: block;
+            letter-spacing: .5px;
+            padding-right: 0;
+            font-size: 14px;
+            font-weight: 500;
+
         }
     }
     .mystyle{
