@@ -13,7 +13,7 @@ a {
 }
 
 body {
-  height: 2000px;
+  height: 5000px;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
 nav .navigation-container {
   width: 100%;
   max-width: 1060px;
-  padding: 28px 4%;
+  padding: 28px 0%;
   justify-content: space-between;
   align-items: stretch;
   margin-left: auto;
@@ -163,8 +163,72 @@ header .header-area .resume-button {
   font-weight: 300;
 }
 
+#contact {
+  padding: 0px 4%;
+}
+#contact .contact-area {
+  width: 100%;
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 12px;
+}
+#contact .contact-area .contact-box {
+  background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgb(230, 236, 234) 35%, rgb(243, 229, 200) 100%);
+  border-radius: 20px;
+  padding: 40px;
+}
+#contact .contact-area .contact-box h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.03em;
+}
+#contact .contact-area .contact-box p {
+  margin: 1rem 0px;
+  font-size: 18px;
+}
+#contact .contact-area .contact-box a {
+  color: #000;
+}
+#contact .contact-area .contact-box .contact-me {
+  margin-top: 100px;
+  display: flex;
+}
+#contact .contact-area .contact-box .contact-me .c-button {
+  color: #fff;
+  background-color: #0d0e10;
+  border-radius: 50px;
+  padding: 13px 47px;
+  max-height: 50PX;
+}
+#contact .contact-area .contact-box .contact-me .c-button:hover {
+  background: #353434;
+}
+#contact .contact-area .contact-box .contact-me ul {
+  display: flex;
+}
+#contact .contact-area .contact-box .contact-me ul li {
+  background: #f5f7f7;
+  margin: 0px 10px 0px 0px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+#contact .contact-area .contact-box .contact-me ul li a i {
+  font-size: 25px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  nav .navigation-container {
+    padding: 28px 4%;
+  }
   nav .navigation-container .nav-right .about-link {
     display: none;
   }
@@ -176,5 +240,21 @@ header .header-area .resume-button {
   }
   nav .mobile-menu {
     display: block;
+  }
+  #contact .contact-area .contact-box .contact-me {
+    display: block;
+    margin-top: 50px;
+  }
+  #contact .contact-area .contact-box .contact-me .c-button {
+    display: block;
+    text-align: center;
+  }
+  #contact .contact-area .contact-box .contact-me ul {
+    padding: 0px;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+  #contact .contact-area .contact-box .contact-me ul li {
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */
