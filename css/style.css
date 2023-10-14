@@ -219,6 +219,13 @@ header .header-area .resume-button {
   border-radius: 50%;
   cursor: pointer;
   position: relative;
+  transition: 0.3s;
+}
+#contact .contact-area .contact-box .contact-me ul li:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+#contact .contact-area .contact-box .contact-me ul li:hover a i {
+  color: #fff;
 }
 #contact .contact-area .contact-box .contact-me ul li a i {
   font-size: 25px;

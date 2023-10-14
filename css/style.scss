@@ -262,6 +262,15 @@ header {
                         border-radius:50%;
                         cursor:pointer;
                         position:relative;
+                        transition: 0.3s;
+                        &:hover{
+                            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+                            a{
+                                i{
+                                    color: #fff;
+                                }
+                            }
+                        }
                         a {
                            i{
                             font-size: 25px;
