@@ -231,6 +231,54 @@ header .header-area .resume-button {
   font-size: 25px;
 }
 
+#projectPage {
+  padding: 0px 4%;
+  margin-top: 200px;
+}
+#projectPage .projectPage-container {
+  width: 100%;
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#projectPage .projectPage-container .project-box h1 {
+  font-size: 86px;
+  line-height: 130%;
+}
+#projectPage .projectPage-container .project-box .project-title {
+  font-size: 22px;
+  line-height: 167%;
+  margin: 36px 0px 80px 0px;
+}
+#projectPage .projectPage-container .project-box .work-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 160px;
+}
+#projectPage .projectPage-container .project-box .work-image-block-hero {
+  width: 100%;
+}
+#projectPage .projectPage-container .project-box .work-image-block-hero img {
+  max-width: 100%;
+}
+#projectPage .projectPage-container .project-bottom h1 {
+  font-size: 40px;
+  line-height: 130%;
+  margin-top: 50px;
+}
+#projectPage .projectPage-container .project-bottom .project-title {
+  font-size: 22px;
+  line-height: 167%;
+  margin: 36px 0px 80px 0px;
+}
+#projectPage .projectPage-container .project-bottom .work-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 160px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   nav .navigation-container {
@@ -263,5 +311,36 @@ header .header-area .resume-button {
   }
   #contact .contact-area .contact-box .contact-me ul li {
     margin: 0;
+  }
+  #projectPage {
+    margin-top: 80px;
+  }
+  #projectPage .projectPage-container .project-box h1 {
+    font-size: 40px;
+  }
+  #projectPage .projectPage-container .project-box .project-title {
+    margin: 36px 0px 60px 0px;
+  }
+  #projectPage .projectPage-container .project-box .work-info {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 36px;
+  }
+  #projectPage .projectPage-container .project-box .work-info .info-box {
+    margin-bottom: 24px;
+  }
+  #projectPage .projectPage-container .project-bottom h1 {
+    font-size: 40px;
+  }
+  #projectPage .projectPage-container .project-bottom .project-title {
+    margin: 36px 0px 60px 0px;
+  }
+  #projectPage .projectPage-container .project-bottom .work-info {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  #projectPage .projectPage-container .project-bottom .work-info .info-box {
+    margin-bottom: 24px;
   }
 }/*# sourceMappingURL=style.css.map */

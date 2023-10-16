@@ -254,27 +254,30 @@ header {
                     li {
                         background: #f5f7f7;
                         margin: 0px 10px 0px 0px;
-                        height:50px;
-                        width:50px;
-                        display:flex;
-                        justify-content:center;
-                        align-items:center;
-                        border-radius:50%;
-                        cursor:pointer;
-                        position:relative;
+                        height: 50px;
+                        width: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        position: relative;
                         transition: 0.3s;
-                        &:hover{
+
+                        &:hover {
                             background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-                            a{
-                                i{
+
+                            a {
+                                i {
                                     color: #fff;
                                 }
                             }
                         }
+
                         a {
-                           i{
-                            font-size: 25px;
-                           }
+                            i {
+                                font-size: 25px;
+                            }
                         }
                     }
                 }
@@ -285,7 +288,63 @@ header {
 
 }
 
+#projectPage {
+    padding: 0px 4%;
+    margin-top: 200px;
 
+    .projectPage-container {
+        width: 100%;
+        max-width: 1060px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .project-box {
+            h1 {
+                font-size: 86px;
+                line-height: 130%;
+            }
+
+            .project-title {
+                font-size: 22px;
+                line-height: 167%;
+                margin: 36px 0px 80px 0px;
+            }
+
+            .work-info {
+                display: flex;
+                justify-content: space-between;
+                font-size: 18px;
+                margin-bottom: 160px;
+            }
+            .work-image-block-hero{
+                width: 100%;
+                img{
+                    max-width: 100%;
+                }
+            }
+        }
+        .project-bottom{
+            h1 {
+                font-size: 40px;
+                line-height: 130%;
+                margin-top: 50px;
+            }
+
+            .project-title {
+                font-size: 22px;
+                line-height: 167%;
+                margin: 36px 0px 80px 0px;
+            }
+
+            .work-info {
+                display: flex;
+                justify-content: space-between;
+                font-size: 18px;
+                margin-bottom: 160px;
+            }
+        }
+    }
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -317,49 +376,79 @@ header {
     }
 
     #contact {
-    
+
         .contact-area {
-        
-    
+
             .contact-box {
-              
-             
-    
-                h2 {
-                   
-                }
-    
-                p {
-                 
-                }
-    
-                a {
-                   
-                }
-    
+
                 .contact-me {
                     display: block;
                     margin-top: 50px;
+
                     .c-button {
                         display: block;
                         text-align: center;
                     }
-    
+
                     ul {
                         padding: 0px;
                         margin-top: 40px;
                         justify-content: space-between;
-                        li{
+
+                        li {
                             margin: 0;
                         }
-                       
+
                     }
-    
+
                 }
             }
         }
-    
-    }
-    
 
+    }
+
+    #projectPage {
+        margin-top: 80px;
+    
+        .projectPage-container {
+    
+            .project-box {
+                h1 {
+                    font-size: 40px;
+                }
+    
+                .project-title {
+                    margin: 36px 0px 60px 0px;
+                }
+    
+                .work-info {
+                    display: block;
+                    font-size: 16px;
+                    margin-bottom: 36px;
+                    .info-box{
+                        margin-bottom: 24px;
+                    }
+                }
+               
+            }
+            .project-bottom{
+                h1 {
+                    font-size: 40px;
+                }
+    
+                .project-title {
+                    margin: 36px 0px 60px 0px;
+                }
+    
+                .work-info {
+                    display: block;
+                    font-size: 16px;
+                    margin-bottom: 60px;
+                    .info-box{
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+        }
+    }
 }
