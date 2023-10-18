@@ -12,8 +12,15 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("font/Gilroy-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   height: 5000px;
+  font-family: "Gilroy-Regular";
 }
 
 nav {
