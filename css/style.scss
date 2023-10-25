@@ -15,16 +15,14 @@ a {
 
 @font-face { 
     font-family: 'Gilroy-Regular'; 
-    src: 
-        url('font/Gilroy-Regular.otf')  
-        format('opentype'); 
+    src: url('/font/Gilroy-Regular.otf')  format('opentype');
     font-weight: normal; 
     font-style: normal; 
 } 
 
 body {
     height: 5000px;
-    font-family: 'Gilroy-Regular'
+    font-family: 'Gilroy-Regular';
 }
 
 // .nopadding {
@@ -275,8 +273,6 @@ header {
                         transition: 0.3s;
 
                         &:hover {
-                            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-
                             a {
                                 i {
                                     color: #fff;
@@ -290,6 +286,23 @@ header {
                             }
                         }
                     }
+                    .insta{
+                        &:hover {
+                            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+                        }
+                    }
+                    .linkedin{
+                        &:hover {
+                            background: #0a66c2;
+                        }
+                    }
+                    .medium{
+                        &:hover {
+                            background: #000;
+                        }
+                    }
+
+                    
                 }
 
             }
@@ -318,6 +331,8 @@ header {
                 font-size: 22px;
                 line-height: 167%;
                 margin: 36px 0px 80px 0px;
+                font-family: 'Gilroy-Thin';
+
             }
 
             .work-info {
@@ -456,6 +471,9 @@ header {
                     margin-bottom: 60px;
                     .info-box{
                         margin-bottom: 24px;
+                    }
+                    .test{
+                        color: red;
                     }
                 }
             }
