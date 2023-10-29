@@ -270,11 +270,27 @@ header .header-area .resume-button {
   font-size: 18px;
   margin-bottom: 160px;
 }
-#projectPage .projectPage-container .project-box .work-image-block-hero {
+#projectPage .projectPage-container .project-box .project-text-area .work-image-block-hero {
   width: 100%;
+  margin-bottom: 20px;
 }
-#projectPage .projectPage-container .project-box .work-image-block-hero img {
+#projectPage .projectPage-container .project-box .project-text-area .work-image-block-hero img {
   max-width: 100%;
+}
+#projectPage .projectPage-container .project-box .project-text-area .text-title {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#projectPage .projectPage-container .project-box .project-text-area .text-body {
+  padding: 3px 0px 15px 0px;
+}
+#projectPage .projectPage-container .project-box .project-text-area .text-body ul {
+  list-style: disc;
+}
+#projectPage .projectPage-container .project-box .project-text-area .text-body ul li {
+  padding: 5px 0px;
 }
 #projectPage .projectPage-container .project-bottom h1 {
   font-size: 40px;

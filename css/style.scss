@@ -341,10 +341,29 @@ header {
                 font-size: 18px;
                 margin-bottom: 160px;
             }
-            .work-image-block-hero{
-                width: 100%;
-                img{
-                    max-width: 100%;
+           
+            .project-text-area{
+                .work-image-block-hero{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .text-title{
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                .text-body{
+                    padding: 3px 0px 15px 0px;
+                    ul{
+                        list-style: disc;
+                        li{
+                            padding: 5px 0px;
+                        }
+                    }
                 }
             }
         }
