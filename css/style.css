@@ -19,7 +19,6 @@ a {
   font-style: normal;
 }
 body {
-  height: 5000px;
   font-family: "Gilroy-Regular";
 }
 
@@ -145,8 +144,8 @@ header .header-area .resume-button {
   margin-right: auto;
 }
 #project .project-container .project-div {
-  height: 624px;
-  margin-bottom: 40px;
+  height: 506px;
+  padding: 12px;
   transition: transform 0.2s;
 }
 #project .project-container .project-div:hover {
@@ -172,6 +171,7 @@ header .header-area .resume-button {
 
 #contact {
   padding: 0px 4%;
+  margin: 20px 0px;
 }
 #contact .contact-area {
   width: 100%;
@@ -189,7 +189,6 @@ header .header-area .resume-button {
   font-weight: 600;
   font-size: 40px;
   line-height: 47px;
-  letter-spacing: -0.03em;
 }
 #contact .contact-area .contact-box p {
   margin: 1rem 0px;
@@ -262,7 +261,6 @@ header .header-area .resume-button {
   font-size: 22px;
   line-height: 167%;
   margin: 36px 0px 80px 0px;
-  font-family: "Gilroy-Thin";
 }
 #projectPage .projectPage-container .project-box .work-info {
   display: flex;
@@ -278,7 +276,7 @@ header .header-area .resume-button {
   max-width: 100%;
 }
 #projectPage .projectPage-container .project-box .project-text-area .text-title {
-  font-size: 20px;
+  font-size: 40px;
   color: #000;
   font-weight: 600;
   margin-bottom: 5px;
